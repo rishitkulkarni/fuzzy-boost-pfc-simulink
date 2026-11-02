@@ -45,9 +45,3 @@ The project report gives an input-current THD of **70.22% without PFC** and **2.
 2. Check the model parameters against the table above and load any accompanying fuzzy inference system (FIS) file if the model references one.
 3. Run the simulation and inspect the DC-link voltage, current reference and inductor current, AC input voltage and current, and steady-state input-current FFT.
 4. For a meaningful with/without PFC comparison, use the same source and load conditions and calculate THD over a steady-state interval.
-
-> The attached report documents the simulation, but does not identify a particular `.slx` filename or MATLAB release. Update these steps with the actual model path and version when adding the simulation files to this repository.
-
-## Documentation
-
-See the project report for the circuit diagram, fuzzy controller description, waveforms, and discussion. Add the report under `docs/` and link its actual filename here when publishing the repository.
